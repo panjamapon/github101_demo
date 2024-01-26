@@ -1,16 +1,14 @@
 import React from 'react';
-const Home = () => {
-  const image = "/323107666_539851201377435_8419949154319976999_n.jpg";
-
+const Template = (props) => {
   return (
     <>
       <div className='table m-auto'>
         <div class="rotate-me" className="w-[300px] h-[300px] overflow-hidden mb-[100px]">
-          <img className='w-full h-full' src={image} />
+          <img className='w-full h-full' src={props.image} />
         </div>
         <br/>
         <p className='text-center text-[42px]'>
-          Hello World
+          Hello {props.name}
         </p>
       </div>
       <style>
@@ -36,4 +34,4 @@ const Home = () => {
     </>
   )
 }
-export default Home;
+export default Template;
