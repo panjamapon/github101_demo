@@ -1,6 +1,6 @@
 import Template from "../components/template";
 const Pong = ()=> {
-  const image = "/323107666_539851201377435_8419949154319976999_n.jpg";
+  const image = "https://obs.line-scdn.net/0huKZUULp6KmRnLAWf6N5VM116KQtUQDlnAxp7ZztCdFBCFD87WBphCkQlJAdLS206CR9mA0QvMVVNSWRiU0Jh/w644";
   const name = "Pong"
   return (
     <div>

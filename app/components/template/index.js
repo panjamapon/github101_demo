@@ -14,14 +14,7 @@ const Template = (props) => {
       <style>
         {
           `
-        @keyframes rotate {
-          from {
-            transform: rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg);
-          }
-        }
+        
         .rotate-me {
           width: 500px;
           height: 500px;
